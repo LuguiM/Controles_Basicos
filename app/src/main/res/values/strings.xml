@@ -8,4 +8,10 @@
     <string name="apellido">Escriba su apellido</string>
 
     <string name="enviar_datos">ENVIAR DATOS </string>
+
+    <string name="titulo2">DETERMINAR SI ES MAYOR DE EDAD</string>
+
+    <string name="edad">Escriba su edad</string>
+
+    <string name="volver">PANTALLA ANTERIOR</string>
 </resources>

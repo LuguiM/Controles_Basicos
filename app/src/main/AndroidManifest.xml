@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Controles_Basicos">
         <activity
+            android:name=".Cambiar_pantalla_2"
+            android:exported="false" />
+        <activity
             android:name=".Cambiar_Pantalla_uno"
             android:exported="false" />
         <activity
