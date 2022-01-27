@@ -42,7 +42,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.338"
         tools:ignore="TextContrastCheck"
-        android:autofillHints="" />
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/etApellido"
@@ -58,7 +58,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:autofillHints="" />
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/btEnviarDatos"
