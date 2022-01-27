@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Controles_Basicos</string>
+    <string name="app_name">Uso de Controles Basicos</string>
+
+    <string name="titulo">CONTROLES BASICOS</string>
+
+    <string name="nombre">Escriba su nombre</string>
+
+    <string name="apellido">Escriba su apellido</string>
+
+    <string name="enviar_datos">ENVIAR DATOS </string>
 </resources>
