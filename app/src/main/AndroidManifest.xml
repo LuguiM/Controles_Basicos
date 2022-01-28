@@ -3,7 +3,7 @@
     package="com.example.controles_basicos">
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -11,10 +11,10 @@
         android:theme="@style/Theme.Controles_Basicos">
         <activity
             android:name=".Cambiar_pantalla_2"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Cambiar_Pantalla_uno"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
