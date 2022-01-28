@@ -28,7 +28,6 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/nombre"
-        android:hintTextColor="#5E35B1"
         android:inputType="textPersonName"
         android:textColor="@color/white"
         android:textColorHighlight="@color/white"
@@ -40,7 +39,8 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.635" />
+        app:layout_constraintVertical_bias="0.635"
+        tools:ignore="Autofill" />
 
     <EditText
         android:id="@+id/etEdad"
@@ -48,7 +48,6 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/edad"
-        android:hintTextColor="#5E35B1"
         android:inputType="textPersonName"
         android:textColor="@color/white"
         android:textColorHighlight="@color/white"
@@ -60,7 +59,8 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75" />
+        app:layout_constraintVertical_bias="0.75"
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/btEnviar"
@@ -83,5 +83,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.237"
-        app:srcCompat="@drawable/temgo_hambre" />
+        app:srcCompat="@drawable/temgo_hambre"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

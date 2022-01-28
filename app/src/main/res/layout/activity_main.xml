@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/apellido"
-        android:hintTextColor="@android:color/holo_red_dark"
+        android:hintTextColor="@color/purple_700"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:minHeight="48dp"
