@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.google.android.material.progressindicator.DeterminateDrawable;
+
 
 public class Cambiar_pantalla_2 extends AppCompatActivity {
     Integer estado;
