@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -21,7 +22,7 @@ public class Cambiar_Pantalla_uno extends AppCompatActivity {
         final EditText eEdad = (EditText) findViewById(R.id.etEdad);
         Button bEnviar = (Button)findViewById(R.id.btEnviarDatos);
 
-        bEnviar.setOnClickListener(new View.OnClickListener() {
+        bEnviar.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 String nombre = eNombre.getText().toString();
